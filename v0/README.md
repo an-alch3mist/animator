@@ -1,4 +1,4 @@
-
+download [package with character, DEBUG_ANIMATOR_CONTROLLER.cs, ANIMATOR_CONTROLLER](https://github.com/an-alch3mist/animator/blob/main/v0/DEBUG_ANIMATOR_CONTORLLER%2C%20with%20CINEMACHINE.unitypackage)
 
 ![image](https://github.com/user-attachments/assets/19224b2e-272c-4fa7-a559-fb8d92ee2345)
 
