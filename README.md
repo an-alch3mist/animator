@@ -1,3 +1,5 @@
+
+
 ![image](https://github.com/user-attachments/assets/19224b2e-272c-4fa7-a559-fb8d92ee2345)
 
 https://github.com/user-attachments/assets/75b15503-d3bd-4e90-aa0b-2a41fd7500aa
@@ -65,3 +67,26 @@ https://github.com/user-attachments/assets/75b15503-d3bd-4e90-aa0b-2a41fd7500aa
 		// << rotate
 	}
 ```
+
+```
+cinemachine.package installed prior, with component values
+```
+![image](https://github.com/user-attachments/assets/8334a081-7535-4478-913c-7608db82570d)
+
+```
+for each .anim
+type => humanoid, model => copy from model
+// to prevent player from rotating of to left or right => few changes
+	- select animation.fbx
+		- under root transform rotation
+			bake into pose -> true (false if we rely on animation to totate character.... eg: run turn 180 )
+			based upon -> original ((at start) if bake into pose false)
+		- under root transform position(Y)
+			bake into pose -> true
+			based upon(at start) -> feet
+		[apply]
+
+[approach => apply root motion in animator]
+```
+
+
