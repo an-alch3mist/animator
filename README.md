@@ -72,9 +72,9 @@ https://github.com/user-attachments/assets/75b15503-d3bd-4e90-aa0b-2a41fd7500aa
 cinemachine.package installed prior, with component values
 ```
 ![image](https://github.com/user-attachments/assets/8334a081-7535-4478-913c-7608db82570d)
-
+<br><br><br>
 ```
-for each .anim
+note: for each .anim
 type => humanoid, model => copy from model
 // to prevent player from rotating of to left or right => few changes
 	- select animation.fbx
